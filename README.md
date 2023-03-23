@@ -9,5 +9,6 @@ Default configuration is for 2 workers per CPU, running on port 5001.
 Premade docker image is available at:
 https://hub.docker.com/repository/docker/servabofidem/fastapi-ubuntu
 
+# Credit due to Sebastián Ramírez
 Forked from: https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker
-Credit due to Sebastián Ramírez.  I just don't like Alpine, and I wanted a more useful base image.
+I just don't like Alpine, and I wanted a more useful base image without having to deal with a million different layers.
